@@ -369,7 +369,12 @@
     .videos{grid-template-columns: repeat(2, 1fr);} 
 }
 
-@media (max-width:768px){
+@media (max-width:720px){
+    .videos{grid-template-columns: repeat(1, auto);} 
+
+}
+
+@media (max-width:450px){
     .videos{grid-template-columns: repeat(1, auto);} 
 
 }
